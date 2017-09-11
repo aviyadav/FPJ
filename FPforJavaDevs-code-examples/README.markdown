@@ -1,9 +1,4 @@
-# Functional Programming for Java Developers #
-## README for the Code Examples ##
-
-Dean Wampler, July 18, 2011
-
-This archive contains all the code examples found in [Functional Programming for Java Developers](http://oreilly.com/catalog/9781449311032/), with the exception of several code snippets in the text. 
+# Functional Programming for Java Developers Code Examples ##
 
 All the source files are in the `src` directory and the corresponding `JUnit` tests are in the `test` directory. There is also a `lib` directory that includes several third-party libraries used for testing or as part of some of the examples. These libraries are subject to their individual license restrictions.
 
@@ -23,7 +18,3 @@ While Java projects are typically built with `ant` or `maven`, I just used `Gnu 
 To build and run the examples, all you need is a recent of version of the Java SDK installed and set up on your system `PATH`. Required third-party libraries are in the `lib` directory.
 
 To build the examples and run the tests, open a terminal window and change to the `code-examples` directory. Then run the `make` command. This builds the default `all` target, which depends the `compile` and `tests` targets. You'll see output for the test runs, ending in `OK` if they were successful.
-
-## Feedback ##
-
-I welcome feedback on the examples (and the book for that matter). You can post comments, corrections, etc. on the [O'Reilly forum](http://forums.oreilly.com/). The book's web site will provide access to the forum, too: [http://oreilly.com/catalog/9781449311032/](http://oreilly.com/catalog/9781449311032/).
